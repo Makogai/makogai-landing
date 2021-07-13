@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service ftpdeploy --genHist --diffFileOnly --ftpCfgPath /ftpdeploy/ --ftpHistPath /ftpdeploy/"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -29,7 +30,8 @@
     "eslint-plugin-vue": "^7.0.0",
     "prettier": "^2.2.1",
     "sass": "^1.35.2",
-    "sass-loader": "^12.1.0"
+    "sass-loader": "^12.1.0",
+    "vue-cli-plugin-ftp-deploy": "^0.1.16"
   },
   "eslintConfig": {
     "root": true,

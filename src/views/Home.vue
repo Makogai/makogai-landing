@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo-long.svg" height="100"/>
+    <img alt="Vue logo" src="../assets/logo-long.svg" style="  width: 100%;
+  height: auto;" />
   </div>
 </template>
 
@@ -9,7 +10,6 @@
 
 export default {
   name: "Home",
-  components: {
-  },
+  components: {},
 };
 </script>
