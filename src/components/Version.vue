@@ -1,16 +1,10 @@
 <template>
-
-      <div class="version-container" style=" position: fixed;
-  bottom: 0;
-  left: 0;">
+  <div class="version-container" style="position: fixed; bottom: 0; left: 0">
     <div class="msg">
       {{ msg }}
     </div>
-    <div class="version">
-     v {{ version }}
-    </div>
-      </div>
-
+    <div class="version">v {{ version }}</div>
+  </div>
 </template>
 
 <script>
@@ -25,4 +19,3 @@ export default {
 <style>
 @import "../assets/version/style.css";
 </style>
-

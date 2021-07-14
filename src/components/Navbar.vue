@@ -22,6 +22,11 @@
           >
         </li>
         <li class="menu__item">
+          <router-link class="menu__link" to="/blog" v-on:click="closeNav"
+            >Blog</router-link
+          >
+        </li>
+        <li class="menu__item">
           <router-link class="menu__link" to="/contact" v-on:click="closeNav"
             >Contact</router-link
           >
